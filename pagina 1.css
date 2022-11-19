@@ -1,0 +1,76 @@
+
+
+body {
+    background-color: #81ebf3;
+    
+}
+
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: black;
+    color: white;
+    font-family: -apple-system;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: #81ebf3;
+    color: black;
+  }
+   
+  }
+ 
+  p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+  }
+  
+	#nav {
+    position: absolute;
+    top:4%;
+    left: 11%;
+    height: 10%;
+    width: 80%;
+   
+    text-align: center;
+  }
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     
+    display: inline-block;<!--ver-->
+    
+  }
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    float:left;
+    
+    
+    }
+#nav ul li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    }
+    
+#nav ul li a:hover {
+    background-color: #ECE83C;
+    
+    }  
+
+
+        
+  .rodape {
+    
+    position: relative;
+    top: 5%;
+    float: center;
+    width: 100%;
+    height:5%;
+    }	
